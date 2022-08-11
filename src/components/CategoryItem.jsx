@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom'
+import {Link } from 'react-router-dom'
 
 function CategoryItem(props) {
     const { 
@@ -7,6 +7,9 @@ function CategoryItem(props) {
         strCategoryThumb, 
         strCategoryDescription 
     } = props;
+
+    
+
     return <div className="card">
         <div className="card-image">
             <img src={strCategoryThumb} alt='strCategory' />
